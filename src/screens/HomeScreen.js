@@ -54,6 +54,7 @@ const Home = () => {
           const apiUrl = `http://ckan2.multimediagdansk.pl/delays?stopId=${stopId}`;
           const response = await axios.get(apiUrl, { headers });
           console.log("Status Code:", response.status);
+          
 
           const fetchedDelays = response.data.delay || [];
           console.log("Fetched Delays:", fetchedDelays);

@@ -6,38 +6,49 @@
     "orientation": "portrait",
     "icon": "./assets/img/logo.jpg",
     "userInterfaceStyle": "light",
-    "splash": {
-      "image": "./assets/img/splashScreen.png",
-      "resizeMode": "contain",
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "usesCleartextTraffic": true
+          }
+        }
+      ]
+    ]
+  },
+  "splash": {
+    "image": "./assets/img/splashScreen.png",
+    "resizeMode": "contain",
+    "backgroundColor": "#00101D"
+  },
+  "assetBundlePatterns": [
+    "**/*"
+  ],
+  "ios": {
+    "supportsTablet": true,
+    "bundleIdentifier": "com.ceskydev.Delayion"
+  },
+  "android": {
+    "adaptiveIcon": {
+      "foregroundImage": "./assets/img/adaptive-icon.png",
       "backgroundColor": "#00101D"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.ceskydev.Delayion"
-    },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/img/adaptive-icon.png",
-        "backgroundColor": "#00101D"
-      },
-      "package": "com.ceskydev.Delayion"
-    },
-    "web": {
-      "favicon": "./assets/img/favicon.png",
-      "config": {
-        "CORS": "http://localhost:8081"
-      }
-    },
-    "extra": {
-      "eas": {
-        "projectId": "8738c156-19d3-4f35-9369-9693958acfa0"
-      }
-    },
-    "plugins": [
-      "expo-build-properties"
-    ]
-  }
+    "package": "com.ceskydev.Delayion"
+  },
+  "web": {
+    "favicon": "./assets/img/favicon.png",
+    "config": {
+      "CORS": "http://localhost:8081"
+    }
+  },
+  "extra": {
+    "eas": {
+      "projectId": "8738c156-19d3-4f35-9369-9693958acfa0"
+    }
+  },
+  "plugins": [
+    "expo-build-properties"
+  ]
+}
 }

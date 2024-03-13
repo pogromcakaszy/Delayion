@@ -25,7 +25,7 @@
     "splash": {
       "image": "./assets/img/splashScreen.png",
       "resizeMode": "contain",
-      "backgroundColor": "#00101D"
+      "backgroundColor": "#111111"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -40,7 +40,7 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/img/adaptive-icon.png",
-        "backgroundColor": "#00101D"
+        "backgroundColor": "#111111"
       },
       "package": "com.ceskydev.Delayion",
       "runtimeVersion": "1.0.0"

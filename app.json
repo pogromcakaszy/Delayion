@@ -13,7 +13,9 @@
           "android": {
             "usesCleartextTraffic": true
           }
-        },
+        }
+      ],
+      [
         "expo-updates",
         {
           "username": "ceskydev"

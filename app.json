@@ -32,14 +32,18 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.ceskydev.Delayion"
+      "bundleIdentifier": "com.ceskydev.Delayion",
+      "runtimeVersion": {
+        "policy": "appVersion"
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/img/adaptive-icon.png",
         "backgroundColor": "#00101D"
       },
-      "package": "com.ceskydev.Delayion"
+      "package": "com.ceskydev.Delayion",
+      "runtimeVersion": "1.0.0"
     },
     "web": {
       "favicon": "./assets/img/favicon.png",
@@ -51,6 +55,9 @@
       "eas": {
         "projectId": "8738c156-19d3-4f35-9369-9693958acfa0"
       }
+    },
+    "updates": {
+      "url": "https://u.expo.dev/8738c156-19d3-4f35-9369-9693958acfa0"
     }
   }
 }

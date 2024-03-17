@@ -5,6 +5,9 @@ import { useFonts } from 'expo-font';
 import { useCallback } from 'react';
 import * as Updates from 'expo-updates';
 
+AppRegistry.registerComponent('Delayion', () => App);
+
+
 export default function App() {
 
   async function onFetchUpdateAsync() {
